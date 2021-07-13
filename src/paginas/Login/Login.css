@@ -1,0 +1,194 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 2% 0px 0px 15%;  
+}
+.candado1{  
+    width: 104px;
+    height: 89px;
+}
+.titleCard {
+    font-size: 32px;
+    line-height: 30px;
+    display: flex;
+}
+.olvideContraseña {
+    color: rgba(0, 150, 136, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.div-form {
+    border-bottom:1px solid gray;
+    margin-top:40px ;
+}
+.sinCuenta {
+    color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    margin-top: 15px;
+}
+.registrarse{
+    background: #FFFFFF;
+    border: 1px solid #009688;
+    height: 44px;
+    width: 342px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    margin-left:110px;
+}
+.correo {
+    Width: 578px;
+    Height:62px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contraseña {
+    Width: 578px;
+    Height:62px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 578px;
+    margin-top: 10px;
+    background: #F50057;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+#submit{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media(max-width:600px){
+    .container-fluid{
+        overflow: hidden;
+    }
+    .titleCard{
+        display: flex;
+        font-family:'Roboto';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.15000000596046448px;
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .correo{
+        display: flex;
+        height: 35.10843276977539px;
+        width: 327.30120849609375px;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        letter-spacing: 0.15px;
+        color: #C4C4C4;
+    }
+    .contraseña{
+        display: flex;
+        height: 35.10843276977539px;
+        width: 327.30120849609375px;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    #submit{
+        display: flex;
+        height: 33px;
+        width: 327px;
+        border-radius: 4px;
+    }
+    .div-form {
+        display: flex;
+        bottom: -1.56%;
+        background: #f5f0f0;
+        margin-top:40px;
+        height: 0.59375px;
+        width: 327px;
+    }
+    .sinCuenta {
+        color: #C4C4C4;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .registrarse{
+        height: 25px;
+        width: 194px;
+        border-radius: 4px;
+        background: #FFFFFF;
+        border: 1px solid #009688;
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #009688;
+        margin-right: 120px;
+    }
+}
+
+
+

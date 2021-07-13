@@ -1,0 +1,46 @@
+
+.boton-add {
+    border:none;
+    text-decoration: none;
+    color: rgb(241, 3, 86);
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 30px;
+    background: none;
+
+
+    
+}
+.like {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    border: none;
+    text-decoration: none;
+}
+.dislike {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    transform: rotate(180deg);
+    border: none;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.table-two th {
+    width: 400px;
+    
+    
+
+}
+.table-two {
+    margin-left:15%;
+    margin-bottom: 5%;
+}
+.text-table {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+
+letter-spacing: 0.15px;
+
+color: #009688;
+}

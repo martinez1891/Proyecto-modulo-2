@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.card-content{
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    width: 832px;
+    height: 391px;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.matea-img{
+    width: 252px;
+    height: 215.65px;
+    overflow: hidden;
+}
+.card_container{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #333333;
+
+}
+.title_2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+.title_3{
+    display:none;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+@media(max-width:600px){
+    .card_container{
+        display: flex;
+        overflow: hidden;
+    }
+    .card-content{
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .title{
+        display: none;
+    }
+    .title_3{
+        display: flex;
+    }
+    .image-container{
+        display: flex;
+        margin-top:20vw;
+    }
+    .card-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 80px;
+    }
+    .title_2{
+        padding:25px;
+    }
+
+}
+

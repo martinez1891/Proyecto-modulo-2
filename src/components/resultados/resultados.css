@@ -1,0 +1,39 @@
+.resultados {
+   
+    height: 66,88px;
+    width: 1143px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    
+}
+.bodyTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 60px;
+}
+.tituloPlaylist {
+    color:rgba(0, 150, 136, 1);
+    height: 47px;
+width: 394px;
+display: flex;
+justify-content: flex-start;
+   
+}
+.tituloTabla {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.sinResultado {
+    color: rgba(196, 196, 196, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 60px;
+}
